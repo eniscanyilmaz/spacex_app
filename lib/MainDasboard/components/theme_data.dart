@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 class GlobalContext {
   static final appTheme = ThemeData(
         primarySwatch: Colors.blue,
-        fontFamily: 'Raleway2'
       );
 }
 

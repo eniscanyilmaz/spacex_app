@@ -29,7 +29,6 @@ abstract class _LatestLaunchViewModelBase with Store {
 
     if (response.statusCode == HttpStatus.ok) {
       latestLaunch = SpaceX.fromJson(response.data);
-      print(response.statusCode);
     }
     changeRequestState();
   }
